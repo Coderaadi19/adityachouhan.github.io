@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="flex">
+        <div class="logo">coderaadi19<span>.</span></div>
+        <nav>
+          <ul class="flex">
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Service</a></li>
+            <li><a href="#project">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div id="search" class="flex">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" name="" id="" placeholder="Search..." />
+          </div>
+        </nav>
+      </header>
+
+      <div class="main flex">
+        <div class="main-one">
+          <h1>Hy! I am</h1>
+          <span class="auto">Aditya chouhan</span>
+          <p>
+           My name is Aditya Chouhan and i am a full-stack Web Developer, software Developer & Engineer with a B.tech in computer science and highly skilled in programming language like C++/Python and in javascript.
+          </p>
+          <button>Hire Me</button>
+        </div>
+        <div class="main-two">
+          <img src="https://miro.medium.com/max/1278/1*i4gEex4-SJDAlNdGSurB7Q.png" alt="" />
+        </div>
+      </div>
+
+      <section class="projects" id="project">
+        <h1>My Awesome <br /><span>Projects</span></h1>
+        <p>
+          I have made some project like Food App,Weather App, Ecommerce Website,some website which are on my github account.   
+        </p>
+        <button class="button">Download CV</button>
+        <div class="projects-div flex div-1">
+          <img src="./Images/Projects/5.png" alt="" />
+          <h3>Ecommerce Website</h3>
+          <p>
+            These is my ecommerce website  
+          </p>
+          <button>Live Preview</button>
+        </div>
+        <div class="projects-div flex div-2">
+          <img src="./Images/Projects/6.png" alt="" />
+          <h3>Weather App</h3>
+          <p>
+            These is my weather app which show approx weather detail.
+          <button>Live Preview</button>
+        </div>
+        <div class="projects-div flex div-3">
+          <img src="./Images/Projects/7.png" alt="" />
+          <h3>Food App</h3>
+          <p>
+            This is my Food App by which you can order food and it will delivery is few minute  
+          </p>
+          <button>Live Preview</button>
+        </div>
+      </section>
+      <br /><br />
+
+      <section class="about flex" id="about">
+        <div class="about-one">
+          <h1>About me</h1>
+          <span>Aditya chouhan</span>
+          <p>
+            I am interested in studying Computer Science because I find it fascinating. When I was a child, I was absolutely attracted by computer games and later it was programming. I also like studying maths and physics, but I chose computing as my career because of its opening, modernity and lots of challenges.Logical problem solving has always appealed to me and this explains my interests in mathematics, programming and computing in general. The decision to read computer science was therefore a simple one. My desire for solving challenging problems led to my choices of studying mathematics and physics at AS-level...
+            
+          </p>
+          <div class="btns">
+            <button>Download CV</button>
+            <button>Contact Me</button>
+          </div>
+        </div>
+        <div class="about-two">
+          <img src="./Images/About/1.png" alt="" />
+        </div>
+      </section>
+      <br /><br /><br />
+
+      <section class="contact" id="contact">
+        <h1>Let Us <span>Talk!</span></h1>
+        <div class="box flex">
+          <div>
+            <i class="fa-solid fa-user"></i>
+            <input type="text" placeholder="Name.." />
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" placeholder="Email.." />
+          </div>
+          <textarea
+            name=""
+            id=""
+            cols="60"
+            rows="5"
+            placeholder="Enter your Message here...."
+          ></textarea>
+          <div>
+            <input type="submit" class="send" value="Send" />
+          </div>
+        </div>
+      </section>
+      <footer class="flex" id="footer">
+        <div class="copy">@copywrite 2025 aadi</div>
+        <div class="social">
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+          <i class="fa-solid fa-phone"></i>
+          <i class="fa-brands fa-github"></i>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".auto", {
+        strings: ["Aditya chouhan", "Web Developer", "UI/UX Designer"],
+        typeSpeed: 30,
+        backSpeed: 70,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
